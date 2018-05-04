@@ -1,0 +1,138 @@
+body{
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: Lato, sans-serif;
+}
+
+header{
+  margin-bottom: 96px;
+}
+
+main{
+  margin: 160px 68px 96px;
+  width: 40em;
+}
+
+form{
+  margin: 20px 0px;
+}
+
+footer{
+  color: white;
+  background-color: #808080; /* From official color scheme: https://color.adobe.com/Refuge-Restrooms-color-theme-4191730/ */
+  position: absolute;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+footer > p{
+  width: 25em;
+  float: left;
+  margin-left: 25px;
+  vertical-align: middle;
+}
+
+footer > nav{
+  width: 40em;
+  float: right;
+}
+
+.topnav-geometric-background{
+  width: 544px;
+  height: 300px;
+  transform: rotate(13deg); /* Equal to rotateZ(13deg) */
+  background-color: #8377af; /* From official color scheme: https://color.adobe.com/Refuge-Restrooms-color-theme-4191730/ */ 
+  z-index: -1;
+  position: absolute;
+  right: -8px;
+  top: -92px;
+}
+
+.topnav{
+  position: absolute;
+  right: 174px;
+  top: 68px;
+}
+
+.find-refuge-div{
+  margin-bottom: -6px;
+}
+
+.topnav a{
+  margin: 0px 10px;
+}
+
+.navlogo{
+  width: 241px;
+  margin: 36px;
+
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+.input-group{
+  display: table;
+  box-sizing: border-box;
+}
+
+.input-group-btn{
+  display: table-cell;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.form-control{
+  height: 35px;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align:middle;
+  font-family: inherit;
+  border: 1.5px solid #41326B;
+  border-radius: 2px;
+}
+
+.btn {
+  width: 35px;
+  margin-left: -1px;
+  cursor: pointer;
+}
+
+.splash-add-restroom-btn{
+  width: 35%;
+  background-color: rgba(65,50,107,0.9);
+  border-radius: 3px;
+  border: 1px solid transparent;
+  box-shadow: 3.5px 3.5px 12px 0px rgba(50,50,50,0.75);
+  line-height: 1.3333333;
+  font-family: inherit;
+  vertical-align: middle;
+  color: white;
+  margin: 3px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.large-text{
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.large-text p{
+  margin: 0px 0px;
+}
+
+.darkpurple-text{
+  color: #3e3467; /* From official color scheme: https://color.adobe.com/Refuge-Restrooms-color-theme-4191730/ */
+}
+
+.grey-text{
+  color: #808080; /* From official color scheme: https://color.adobe.com/Refuge-Restrooms-color-theme-4191730/ */
+}
